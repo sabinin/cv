@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sabinin CV</title>
+        <meta lang="en" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--sidebar -->
+            <div class="sidebar">
+
+                <div class="sidebar-content">
+                    <img class="avatar" alt="logo" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANhAAAAJDZhNTcwYmFiLWFhMDItNDExYy1hY2UyLWJkOGE3ZWFlMGM3Mw.jpg">
+                    <header class="sidebar-title">
+                        <h1>Sabinin Artem</h1>
+                    </header>
+                        <h5>Software Engineer</h5>
+                    <div>
+                        <div class="active">
+                            <a class="download" href="beetroot.rar"><img class="icon" alt="download" src="http://cdn.flaticon.com/png/256/63296.png"></a>
+                            <a class="print" href="" onclick="print()"><img  class="icon" alt="print" src="http://cdn.flaticon.com/png/256/63303.png"></a>
+                            <a class="email" href="mailto:s-art@ukr.net" ><img class="icon" alt="email" src="http://cdn.flaticon.com/png/256/63253.png"></a>
+                        </div>
+                       <div class="contacts">
+                           <div class="contact-single">
+                                <img class="icon" alt="phone" src="http://cdn.flaticon.com/png/256/63262.png">
+                               +380993555020
+                           </div>
+                           <div class="contact-single">
+                               <img class="icon" alt="email" src="http://cdn.flaticon.com/png/256/63273.png">
+                               s-art@ukr.net
+                           </div>
+                       </div>
+                    </div>
+                    <div>
+                        <div class="social">
+                            <a target="_blank" href="https://vk.com/id2015490">
+                                <img alt="vkontakte" class="icon" src="data:image/png;base64,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">
+                            </a>
+                            <a target="_blank" href="https://www.facebook.com/artem.sabinin">
+                                <img alt="facebook" class="icon" src="data:image/png;base64,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">
+                            </a>
+                            <a target="_blank" href="https://www.linkedin.com/profile/view?id=238159696">
+                                <img alt="linkedin" class="icon" src="data:image/png;base64,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">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar">
+                        <details >
+                            <summary>
+                                <b>Navigation</b>
+                            </summary>
+                            <nav>
+                                <ul>
+                                    <li><a href="#section-1">The goal</a></li>
+                                    <li><a href="#section-2">Technical skills</a></li>
+                                    <li><a href="#section-3">Completed projects</a></li>
+                                    <li><a href="#section-4">Professional experience</a></li>
+                                    <li><a href="#section-5">Miscellaneous</a></li>
+                                    <li><a href="#section-6">Education</a></li>
+                                    <li><a href="#section-7">Personal</a></li>
+                                </ul>
+                            </nav>
+                        </details>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end of sidebar -->
+            <div class="wrapper">
+                <div class="content">
+                    <section>
+
+                        <header>
+                            <h3 id="section-1">The goal</h3>
+                        </header>
+                        <article>
+                            <p>
+                                To work in the field of software, web development and web design,
+                                industrial automation. Ready to continuous learning and enhance new knowledge.
+                            </p>
+                        </article>
+                    <article>
+                            <h3 id="section-2" >Technical skills:</h3>
+                            <ul>
+                                <li>
+                                    Working with databases MySQL; MS SQL
+                                </li>
+                                <li>
+                                    Programming language PHP;
+                                </li>
+                                <li>
+                                    Basic knowledge HTML, JQuery, AJAX;
+                                </li>
+                                <li>
+                                    Knowledgeof MVC;
+                                </li>
+                                <li>
+                                    Versions System SVN;
+                                </li>
+                                <li>
+                                    IDE: NetBeans, Eclipse, Aptana;
+                                </li>
+                                <li>
+                                    CMS: Wordpress;
+                                </li>
+                                <li>
+                                    Project Management Methodology Scrum;
+                                </li>
+                                <li>
+                                    PLC Programming Language Standard IEC 61131-3.
+                                </li>
+                                <li>
+                                    Development of man-machine interface for process automation in WinCC, Zenon, Movicon.
+                                </li>
+                                <li>
+                                    Knowledge of electrics, electrical machines and drives;
+                                </li>
+                                <li>
+                                    Knowledge of industrial network protocols Profibas DP, Profibas PA, Ethernet, Profinet, Modbus;
+                                </li>
+                                <li>
+                                    Writing programs for the PLC in Step 7;
+                                </li>
+                            </ul>
+                    </article>
+                    <article>
+                        <header>
+                            <h3 id="section-3">Completed projects:</h3>
+                        </header>
+
+                            <ul>
+                                <li>
+                                    Participation in the creation of MES for agroholding Astarta- Kiev (php-developer);
+                                </li>
+                                <li>
+                                    Sports club "Vitamin"- <a target="_blank" href="http://vitamincentr.pl.ua/#wp-content/uploads/new15.jpg">vitamincentr.pl.ua</a> - website development;
+                                </li>
+                                <li>
+                                    Santa Fe brand - santa-fe.com.ua - website development;
+                                </li>
+                                <li>
+                                    Autoshop - omega-avto.net - website modification;
+                                </li>
+                                <li>
+                                    Autoservice - 24helper.net - website development;
+                                </li>
+                                <li>
+                                    Rehabilitation center - vozvrat.org- website development;
+                                </li>
+                                <li>
+                                    Thai massage center - thailotus.lv- website development;
+                                </li>
+                            </ul>
+
+                    </article>
+                </section>
+                <section>
+                    <header>
+                        <h3 id="section-4">Professional experience:</h3>
+                    </header>
+                    <article>
+
+                            <dl>
+                                <dt>
+                                    LLC "APO Tsukrovyk Poltava" production unit "Engineering Services"
+                                </dt>
+                                <dd>
+                                    2011 - 2013.
+                                </dd>
+                                <dd>
+                                    Software Engineer for the development and debugging of automated control systems process.
+                                </dd>
+                            </dl>
+
+                        <ul>
+                            <li>
+                                <em>The development of human-machine interface based on WinCC 7.0, Zeonon;</em>
+                            </li>
+                            <li>
+                                <em>Writing programs for PLC of firms Siemens, Vipa;</em>
+                            </li>
+                            <li>
+                                <em>Introduction of automated control systems for enterprise;</em>
+                            </li>
+                            <li>
+                                <em>PHP programmer;</em>
+                            </li>
+                        </ul>
+
+                        <dl>
+                            <dt>
+                                Private enterprise "Rost Elektromontazh"
+                            </dt>
+                            <dd>
+                                2013-2014
+                            </dd>
+                            <dd>
+                                Software Engineer for the development and debugging of automated control systems process.
+                            </dd>
+                        </dl>
+                        <ul>
+                            <li>
+                                <em>The development of human-machine interface based on WinCC 7.0, Zeonon;</em>
+                            </li>
+                            <li>
+                                <em>Writing programs for PLC of firms Siemens, Vipa;</em>
+                            </li>
+                            <li>
+                                <em>Introduction of automated control systems for enterprise;</em>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>
+                               Private enterprise "Rost Elektromontazh"
+                            </dt>
+                            <dd>
+                                2014-2015
+                            </dd>
+                            <dd>
+                                Software Engineer – Sole Proprietorship Sabinin A.V.
+                            </dd>
+                        </dl>
+
+                        <ul>
+                            <li>
+                                <em>Software development for SCADA on WinCC 7.0, Zeonon;</em>
+                            </li>
+                            <li>
+                                <em>Software development for PLC of firms Siemens, Vipa;</em>
+                            </li>
+                            <li>
+                                <em>Start Commissioning;</em>
+                            </li>
+                            <li>
+                                <em>Web-development;</em>
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>
+                                Endevour LLC in Poltava (Ukraine)
+                            </dt>
+                            <dd>
+                                2014-2015
+                            </dd>
+                            <dd>
+                                IT Support Consultant, Automation Control Engineer.
+                            </dd>
+                        </dl>
+
+                        <ul>
+                            <li>
+                                <em>Software development for SCADA on WinCC 7.0, Zeonon;</em>
+                            </li>
+                            <li>
+                                <em>Software development for PLC of firms Siemens, Vipa;</em>
+                            </li>
+                            <li>
+                                <em>Start Commissioning;</em>
+                            </li>
+                            <li>
+                                <em>Web-development;</em>
+                            </li>
+                        </ul>
+                    </article>
+                    <header>
+                        <h3 id="section-5"> Miscellaneous: </h3>
+                    </header>
+                    <article>
+                        <ul>
+                            <li>
+                                Upper intermediate English, basic level of German;
+                            </li>
+                            <li>
+                                Desire to develop, implement new and exciting projects in the software development, web
+                                design, to improve my skills, learn new things and new skills to get a decent reward for my work;
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+                <section>
+                    <header>
+                        <h3 id="section-6">Education:</h3>
+                    </header>
+                    <article>
+                        <dl>
+                            <dt>
+                                2006-2010
+                            </dt>
+
+                                <dd>
+                                    Bachelor of Electromechanics
+                                </dd>
+                                <dd>
+                                    Electromechanical systems of automation and electric
+                                </dd>
+                                <dd>
+                                    Electromechanical Faculty
+                                </dd>
+                                <dd>
+                                    Poltava National Technical University named after Yuriy Kondratyuka
+                                </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                2010-2012
+                            </dt>
+                                <dd>
+                                    Master of Electromechanics
+                                </dd>
+                                <dd>
+                                    Electromechanical systems of automation and electric
+                                </dd>
+                                <dd>
+                                    Electrical machine constructing faculty
+                                </dd>
+                                <dd>
+                                    National Technical University “KhPI”
+                                </dd>
+                        </dl>
+                    </article>
+                </section>
+                <section>
+                    <header>
+                        <h3 id="section-7">Personal:</h3>
+                    </header>
+                    <article>
+                        <p>
+                            24 years old, resident of Poltava, married, no kids, hobbies: active rest, traveling, football; do not smoke.
+                        </p>
+                    </article>
+                </section>
+            </div>
+        </div>
+            <footer>
+                <a href="#top"><img class="icon up" alt="up-arrow" src="http://cdn.flaticon.com/png/256/63298.png" /></a>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    position: static;
+}
+.container{
+    width: 960px;
+    margin: 0px auto;
+}
+h5{
+    font-style:italic;
+    text-align: right;
+}
+.icon{
+    height:32px;
+    width:32px;
+    opacity: 0.5;
+    margin-left: 25px;
+}
+.sidebar{
+    height: 100%;
+    width: 280px;
+    float: left;
+    color:darkgray;
+    margin: 0px 40px 0px 0px;
+    position: fixed;
+}
+.sidebar-content{
+    width: 230px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.avatar{ /* селектор для класса avatar */
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    float: left; /* прижимаемся к левому краю, обтекание справа */
+    background: #fff; /* фон */
+    width: 100px; /* ширина */
+    height: 100px; /* высота */
+    padding: 5px; /* внутренние отступы(верх, право, низ, лево) */
+    border: 1px solid #999; /* граница(ширина, тип, цвет) */
+    border-radius: 50%; /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
+    box-shadow: 0px 1px 1px 1px #bbb /* смещение по горизонтали, смещение по вертикали, размытие, увеличение и цвет */
+}
+.avatar img{ /* селектор для картинки, которая "внутри" класса avatar */
+    display: block; /* картинка выводится как блок, по ширине будет равен родителю(диву в котором находится) */
+    width: 100%; /* ширина 100% */
+    height: 100%;
+    border: 0; /* граница нулевая */
+    margin: 0; /* внешний отступ отстутствует */
+    border-radius: 50%; /* читай выше */
+}
+.sidebar-title{
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.navbar{
+    margin: 10px 0px 0px 10px;
+}
+nav ul {
+    list-style-image: url("https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-16.png");
+    margin-left: -20px;
+}
+nav a {
+    text-decoration: none;
+    font-size: smaller;
+}
+adress p{
+    width: 100%;
+    margin: 10px 0px;
+    font-weight: bold;
+    text-align: right;
+}
+.wrapper{
+    width: 680px;
+    margin: 0 0 0 280px;
+    padding: 0;
+    background-color: whitesmoke;
+
+    padding: 1em;
+    box-shadow:
+    0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.active{
+    background-color: whitesmoke;
+    padding-top:5px ;
+ }
+.contacts{
+    margin: auto;
+}
+.contact-single img{
+    margin-right: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+.contact-single{
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+.social{
+    margin-top: 10px;
+}
+.social a{
+    text-decoration: none;
+}
+h3
+{
+    position: relative;
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 6px 20px 6px 70px;
+    margin: 30px 10px 10px -45px;
+    color: #555;
+    background-color: #e35b5b;
+    text-shadow: 0px 1px 2px #bbb;
+    box-shadow: 0px 2px 4px #888;
+}
+h3:after
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: 100%;
+    border-width: 5px 10px;
+    border-style: solid;
+    border-color: #666 #666 transparent transparent;
+}
+.content{
+    padding-left: 10px;
+    color: #888888;
+ }
+footer{
+    clear: both;
+}
+.up{
+    margin-left: 110px;
+}
+dl{
+    font-weight: bold;
+    line-height: 1.5;
+}
